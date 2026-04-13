@@ -1,0 +1,23 @@
+#Klucz, Wartość
+print('''"Cześć to słownik Młodzież tutaj dowisz się co dane słow znaczą. slownik_Mlodziezy 
+    "67"
+    "I do pieca"
+    "Trenowalem 7 lat sztuki walki"
+    "JD"
+    "55"
+    ''')
+slownik_Mlodziezy = {
+    "67": "67",
+    "I do pieca": "cos wyrzucać cos",
+    "Trenowalem 7 lat sztuki walki": "to jest takie wyśmianie disa",
+    "JD": "J#b#ć disa",
+    "55": "55",
+}
+
+word = input("Wpisz słowo, którego nie rozumiesz (używaj wielkich liter!): ")
+
+if word in slownik_Mlodziezy.keys():
+    print(slownik_Mlodziezy[word])
+    # Co powinniśmy zrobić, jeśli słowo zostało znalezione?
+else:
+    print("Nie posiadamy takiego słowa zgłoś to do pracownikuw lub zadzwoń abyśmy mogli dodać brakujące słowa")
